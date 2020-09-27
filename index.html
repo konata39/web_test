@@ -51,30 +51,7 @@
     font-size: 12px;
     z-index: 2;
   }
-  .timeline .swiper-slide .timeline-title {
-    font-weight: 800;
-    font-size: 34px;
-    margin: 0 0 30px;
-    opacity: 0;
-    transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.3s;
-  }
-  .timeline .swiper-slide .timeline-text {
-    font-weight: 800;
-    font-size: 34px;
-    margin: 0 0 30px;
-    opacity: 0;
-    transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.3s;
-  }
-  .timeline .swiper-slide .timeline-banner-logo {
-    font-weight: 800;
-    font-size: 34px;
-    margin: 0 0 30px;
-    opacity: 0;
-    transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.4s;
-  }
+
   .timeline .swiper-slide .timeline-year {
     display: block;
     font-size: 42px;
@@ -83,7 +60,6 @@
     color: #d4a024;
     font-weight: 300;
     opacity: 0;
-    transition: 0.2s ease 0.5s;
   }
   .timeline .swiper-slide .timeline-title {
     font-weight: 800;
@@ -91,13 +67,11 @@
     margin: 0 0 30px;
     opacity: 0;
     transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.6s;
   }
   .timeline .swiper-slide .timeline-text {
     line-height: 1.5;
     opacity: 0;
     transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.7s;
   }
   .timeline .swiper-slide .timeline-banner-logo {
     position: absolute;
@@ -107,27 +81,26 @@
     top: 0;
     opacity: 0;
     transform: translate3d(20px, 0, 0);
-    transition: 0.2s ease 0.8s;
   }
   .timeline .swiper-slide-active .timeline-year {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-    transition: 0.4s ease 1.6s;
+    transition: 0.4s ease 0.5s;
   }
   .timeline .swiper-slide-active .timeline-title {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-    transition: 0.4s ease 1.7s;
+    transition: 0.4s ease 0.7s;
   }
   .timeline .swiper-slide-active .timeline-text {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-    transition: 0.4s ease 1.8s;
+    transition: 0.4s ease 0.9s;
   }
   .timeline .swiper-slide-active .timeline-banner-logo {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-    transition: 0.4s ease 1.9s;
+    transition: 0.4s ease 1.2s;
   }
   .timeline .swiper-pagination {
     right: 15% !important;
@@ -315,14 +288,14 @@
     var mySwiper = new Swiper(".swiper-container", {
       direction: "vertical",
       loop: false,
-      pagination: ".swiper-pagination",
+      /*pagination: ".swiper-pagination",
       grabCursor: true,
       speed: 1000,
       paginationClickable: true,
-      parallax: true,
+      parallax: true,*/
       autoplay: false,
       effect: "slide",
-      mousewheelControl: 1
+    //  mousewheelControl: 1
     });
 
     </script>
